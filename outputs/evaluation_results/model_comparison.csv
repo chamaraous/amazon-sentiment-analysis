@@ -1,0 +1,9 @@
+model	feature	accuracy	precision_macro	recall_macro	f1_macro	notes
+Logistic Regression (baseline)	TF-IDF	0	0	0	0	Fill after training
+Logistic Regression (tuned)	TF-IDF	0	0	0	0	GridSearchCV C + solver
+Naive Bayes (baseline)	TF-IDF	0	0	0	0	Fill after training
+Naive Bayes (tuned)	TF-IDF	0	0	0	0	GridSearchCV alpha
+Random Forest (baseline)	TF-IDF	0	0	0	0	Fill after training
+Random Forest (tuned)	TF-IDF	0	0	0	0	GridSearchCV n_estimators + max_depth
+LSTM Baseline	Sequences	0	0	0	0	64 units / 5 epochs
+LSTM Optimized	Sequences	0	0	0	0	128 units + dropout / 10 epochs
